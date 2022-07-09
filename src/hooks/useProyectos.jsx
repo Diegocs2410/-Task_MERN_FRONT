@@ -1,0 +1,6 @@
+import { useContext } from "react";
+import ProyectosContext from "../context/ProyectoContext";
+
+const useProyectos = () => useContext(ProyectosContext);
+
+export default useProyectos;
